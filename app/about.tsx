@@ -2,10 +2,10 @@ import { View } from 'react-native'
 import React from 'react'
 import {Text} from "react-native-paper"
 
-export default function index() {
+export default function about() {
   return (
     <View className='flex-1 p-4'>
-      <Text variant="titleLarge">index</Text>
+      <Text variant="titleLarge">about</Text>
     </View>
   )
 }
